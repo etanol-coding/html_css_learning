@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligações</title>
+</head>
+<body>
+    <h1>Ligações em html</h1>
+    <h2>O que são as ligações?</h2>
+    <blockquote cite="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf">
+        O link ou ligação é a essência fundamental do
+hipertexto. Ela nos permite ligar documentos
+entre si e permitir a navegação entre essas
+páginas. Nesse capítulo vamos aprender a
+configurar as âncoras para vários
+comportamentos, desde o mais simples que é
+criar um link interno até ligações que
+habilitam downloads de arquivos. <br>
+<small>Texto pelo <a href="https://github.com/gustavoguanabara" target="_blank">Prof. Gustavo Guanabara</a> ou <a href="https://www.cursoemvideo.com" target="_blank">&copy;CursoEmVídeo</a></small>
+    </blockquote>
+    <h2>Como fazer uma âncora?</h2>
+    <p>
+        Para fazer uma âncora é só usar a tag &lt;a&gt; e usar o parâmetro href="" e colocar o link que for dentro das aspas.
+    </p>
+    <a href="http://pudim.com.br" hreflang="pt-br" target="_blank" rel="external" rel="nofollow">
+        site legal
+    </a>
+    <h3>O parâmetro rel=""</h3>
+    <p>Esse parâmetro rel serve para mostra basicamente que link é esse para o google.</p>
+    <blockquote cite="https://github.com/gustavoguanabara">
+        rel="next" indica que o link é para a próxima parte do documento atual
+        <br>
+        rel="prev" indica que o link é para a parte anterior do documento atual
+        <br>
+        rel="author" indica que é um link para o site do autor do artigo atual
+        <br>
+        rel="external" indica que é um link para outro site que não faz parte do site 
+    </blockquote>
+    <h4>Quando usar rel="nofollow"?</h4>
+    <p>
+        <blockquote>
+            Se uma informação não for tão relevante assim, mas você sentir que precisa de um link, optar pelo parâmetro rel="nofollow" é melhor. Certifique-se também que links de anúncio, afiliados, e afins, não sejam rel="dofollow".
+            Use o parâmetro rel="nofollow" toda vez que inserir links que você não deseja que sejam seguidos de volta. <strong><mark>Isso é fundamental quando for preciso citar links de concorrentes, não apenas em termos de nicho, mas também de palavras-chave.</mark></strong>
+        </blockquote>
+    </p>
+    <h4>E quando usar rel="dofollow"?</h4>
+    <p>
+        <blockquote>
+            Antes de usar rel="dofollow" nos seus links, certifique-se de que eles são relevantes para a sua postagem e que não estão ali somente por conta da linkagem. Do contrário, os motores de busca podem considerar o seu post como <strong>spam</strong>
+        </blockquote>
+    </p>
+    <h3>O parâmetro hreflang=""</h3>
+    <p>Com esse parâmetro você pode definir qual é a ligua do link, por exemplo "pt-br" (português brasileiro) ou "en" (inglês) para definir a língua do site, para que também os tradutores automaticos funcionem.</p>
+    <h3>O parâmetro target=""</h3>
+    <p>Esse parâmetro permite que você defina como você quer que o link seja aberto</p>
+    <h4>target="_self"</h4>
+    <p>O target="_self" abre o link na mesma aba do seu site, recomendado para uma continuação do seu site, ou outra parte do seu site.</p>
+    <p>(usando o parâmetro rel="next")</p>
+    <a href="outraparte.html" hreflang="pt-br" target="_self" rel="next">---segunda parte---</a>
+    <h4>target="_blank"</h4>
+    <p>Geralmente usado para links externos para o usuário não sair do seu site:</p>
+    <a href="http://pudim.com.br" target="_blank" rel="external">link com parâmetro target="_blank"</a>
+
+    <h2>Downloads</h2>
+    <p>Você pode colocar downloads, faça o download <a href="index.zip" download="index.zip" type="application/zip"> desse arquivo</a>, para colocar downloads use o parâmetro download="" com o nome do arquivo e a tag type="" que você pode usar diferentes formas para diferentes formas de arquivo:</p>
+    <p>
+        <blockquote>
+            
+            application/zip <br>
+            text/html <br>
+            text/css <br>
+            text/javascript <br>
+            video/mp4 <br>
+            video/H264 <br>
+            video/JPEG <br>
+            audio/aac <br>
+            audio/mpeg <br>
+            font/ttf <br>
+            image/jpeg <br>
+            image/png <br>
+        </blockquote>
+    </p>
+</body>
+</html>

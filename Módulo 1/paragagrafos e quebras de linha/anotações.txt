@@ -1,0 +1,3 @@
+A tag <br> é usada para quebrar a linha, apertar enter enquanto estiver digitando no VScode não vai mudar nada no site, vai ficar tudo na mesma linha, o que define isso é a tag <br>
+
+Mais também é importante que você não use o <br> varias vezes para colocar espaço entre textos, mais pra frente nas css você vai aprender a fazer isso da forma certa.

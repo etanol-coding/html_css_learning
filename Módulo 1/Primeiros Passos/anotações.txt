@@ -1,0 +1,16 @@
+html: conteúdo
+css: estilo
+javascript: interação do usuário
+
+Se você digitar ! e apertar enter o vs vai criar automaticamente um código base de html.
+
+Dentro desse código tera duas áreas primordiais: a head para configurações, e o body para o que vai propriamente aparecer no site.
+
+Por exemplo você pode escrever algo dentro do body que vai aparecer no site, é aqui no body que você vai usar o html.
+É aqui no body que você vai usar as tags <> </>
+
+Agora algumas tags básicas de html:
+
+<h1>Aqui o texto</h1> "Essa tag cria um título, deixa o texto um pouco maior, mais não deve ser usado para aumentar o texto"
+<p>Aqui o texto<p> "Essa tag cria cria um parágrafo"
+<hr> "Essa tag cria uma linha para separar as coisas, nem todas as tags abrem <> e fecham </>, algumas só abrem como o hr"

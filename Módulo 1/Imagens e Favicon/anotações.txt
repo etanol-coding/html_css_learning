@@ -1,0 +1,12 @@
+A tag <img> com o parâmetro src pode adicionar uma imagem no seu site:
+<img src="Nome do arquivo" alt"Descrição da imagem">
+O parâmetro alt serve para a acessibilidade do seu site, como por exemplo colocar sua imagem no google imagens ou cegos poderem usar seu site.
+
+É importante saber que você não pode usar qual quer imagem no seu site, a grande maioria das imagens, animações ou audios são protegidas por direitos autorais, um bom site que disponibiliza imagens sem direitos autorais para usar em seu site é o pexels
+
+você também pode colocar um ícone no seu site, eu to falando dos favicons, para fazer isso, na head, logo em cima do tittle você digita link:favicon e aperta enter, que vai cria o código:
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+Ai ali no parâmetro href é só colocar o nome do arquivo, lembrando que é recomendavel colocar um arquivo .ico já que alguns navegadores não suportam colocar png
+Você pode transformar uma imagem png ou .jpg em .ico nesse site:
+https://convertio.co/pt/png-ico/
+inclusive, é legal usar o convertio.co para converter qual quer arquivo, já que ele suporta varios tipos de formato de arquivo.

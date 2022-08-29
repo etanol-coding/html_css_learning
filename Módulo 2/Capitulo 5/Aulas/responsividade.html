@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <main>
+        <h1>Sites responsivos com a HTML e com as CSS</h1>
+        <h2>O que é responsividade?</h2>
+        <p>Responsividade é o seu site se adaptar a diferentes tamanhos de tela, como usar seru site em celulares, computadores e até mesmo TVs</p>
+        <h3>Texto responsivo</h3>
+        <p>Para tornar um texto responsivo, você seleciona nas CSS a caixa em que o texto está, e coloca um tamanho minimo e um tamanho máximo, é recomendável que você não defina um tamanho miníno para que mesmo nas menores telas seu site funcione, porém para telas maiores é bom colocar um tamanho máximo que fique confortável de ler, para que o usuário não tenha que ficar atravessando toda a tela com os olhos, recomendo que coloque o tamanho maxímo entre 600px a 800px, exemplo do código: <br> <br><code>main{min-width: none; <br> max-width: 800px;}</code></p>
+        <h3>Imagens responsivas</h3>
+        <p>Para criar imagens responsivas ou vídeos responsivos, você deve criar um bloco para eles, colocá-los no centro usar <code>width: 100%;</code> dessa forma ele vai sempre ocupar o tamanho completo da caixa em que se localiza, você também pode definir se uma imagen vai ficar pequena, já que algumas imagens no nosso site nós queremos que independente do viewport ela seja pequena: <code>width: 30%;</code>, enfim, isso você vai configurar com suas <strong>classes</strong>, exemplo de código: <br> <br> <code>img, iframe, video{display: block; margin: auto; width: 100%;} <br> img.pq, iframe.pq, video.pq{width: 30%}</code> <br> <br>Lembrando que <code>&lt;iframe&gt;</code> é a tag que é utilizada para incorporar vídeos no youtube, você pode colocar classe e definir estilos para ela sem problemas.</p>
+    </main>
+</body>
+</html>

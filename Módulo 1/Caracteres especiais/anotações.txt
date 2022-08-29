@@ -1,0 +1,5 @@
+Para usar os caracteres é só usar o que ta no código.
+
+Já nos emojis, tem duas opções, ou precisa ir em algum site, como exemplo:
+https://unicode.org/emoji/charts/full-emoji-list.html#1f610
+Ai você vai pegar o código, e trocar U+ por &#x

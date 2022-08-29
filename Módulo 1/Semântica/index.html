@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <h1>Semântica no HTML5</h1>
+<p>A grande diferença do html4 para o html5 foi a semântica, agora são utilizadas tags semânticas</p>
+<h2>O que é a tal "Semântica"?</h2>
+<p>Semântica é basicamente sobre dar sentido nas tags. Antes as tags não tinham nomes com muito sentido, era basicamente as css na html, então para acabar com essa bagunça agora as tags não servem mais para estilo.</p>
+<h3>Mais então pra que serve as tags da html?</h3>
+<p>Então, na verdade as tags até mudam o estilo <strong>(Apesar disso, NUNCA use as tags html para mudar efetivamente o estilo, faça isso nas css).</strong> Mais na verdade as tags em html servem para você deixar o seu site mais dinâmico, deixar que o google entenda o que é cada texto no seu site e ETC.</p>
+<hr>
+<h2>Agora bora aprender algumas tags de texto no html5!</h2>
+<h2>Tags de Endereço</h2>
+<p>A tag &lt;address&gt; serve para localizar um endereço. Isso serve para mostra para o google que esse texto é um endereço, o google pode até te mostrar um caminho para o endereço! Essa tag também coloca o texto em itálico, mais novamente não deve ser usada para isso, isso deve ser feito no css.</p>
+<p><address>Rua dos Bobos Número 0</address></p>
+<h2>Textos <strong>destacados</strong></h2>
+<p>Basicamente a tag &lt;strong&gt; serve para <strong>destacar</strong> textos.</p>
+<p><strong>Texto destacado</strong></p>
+<h2>Textos com Ênfase</h2>
+<p>A tag &lt;em&gt; serve para textos com <em>ênfase</em></p>
+<p><em>Texto com ênfase</em></p>
+<h2>Marca Textos em HTML</h2>
+<p>Sabe aqueles marca textos que você usa para <mark>marcar</mark> textos de suma importância? então, isso tem no html com a tag &lt;mark&gt;</p>
+<p><mark>Texto marcar</mark></p>
+<h2><del>Não considere isso</del> use a tag &lt;del&gt; para desconsiderar textos</h2>
+<p><del>texto que deve ser desconsiderado</del></p>
+<h2><ins>Considere isso!</ins> use a tag &lt;ins&gt; para considerar textos!</h2>
+<p><ins>texto que deve ser considerado</ins></p>
+<h2>Dois em cima, Dois em baixo</h2>
+<p>Você pode usar a tag &lt;sup&gt; para o ² em cima e a tag &lt;sub&gt; para o dois em baixo.</p>
+<p> x<sup>²</sup> <br> H<sub>²</sub>O  </p>
+<h2>Compartilhamento de códigos!!</h2>
+<p>Você pode usar a tag &lt;pre&gt; para usar seus espaços e quebras de linha do editor de código também no site usando a tag &lt;pre&gt; e usar monoespaços para seus códigos usando a tag &lt;code&gt;</p>
+<h3>Exemplo de código em python:</h3>
+<br>
+<pre>
+    <code>
+        numero = int(input('Digite um inteiro: '))
+if not (numero%3) :
+    print("É múltiplo de 3")
+else:
+    print("Não é múltiplo de 3")
+    </code>
+</pre>
+<h2><q>Citações</q></h2>
+<p>Para usar citações em html, use a tag &lt;q&gt;</p>
+<p><q>Citação</q></p>
+<h2>Textos de outros sites</h2>
+<p>Você pode usar textos de outros sites ou mesmo fazer citações maiores usando a tag &lt;blockquote&gt;. Usando o paramêtro cite="link" você pode mostrar ao google de qual link você pegou o texto.</p>
+<p><blockquote cite="https://www.infoescola.com/informatica/c-sharp/">
+    O C# (leia-se C-Sharp), é uma linguagem de programação orientada a objetos, que foi desenvolvida pela Microsoft e faz parte da plataforma .NET. Embora a linguagem C# tenha sido criada do zero, foi baseada na linguagem C++ e tem muitos elementos da linguagem Pascal e Java.
+</blockquote></p>
+<h2>Silgas</h2>
+<p>Passe o mouse em cima de HTML, Viu? Você pode usar a tag &lt;abbr&gt; com o parâmetro tittle="" e colocar o significado da sigla dentro das aspas "" e a sigla dentro da tag.</p>
+<p><abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr></p>
+<h2>oditrevni otxet</h2>
+<p>Você pode selecionar se o seu texto vai aparecer da direita para a esquerda ou da esquerda para a direita usanod a tag &lt;bdo&gt; com o parâmetro dir="" e dentro das aspas rtl que é direita para a esquerda ou ltr que é esquerda para a direita</p>
+<p><bdo dir="rtl">texto invertido</bdo></p>
+<h2>Sabe as <small>letras miúdas?</small></h2>
+<p>As letras miúdas de um contrato ou do copyright podem ser usadas com a tag &lt;small&gt;</p>
+<p><small>as famosas letras miúdas</small></p>
+<hr>
+<h1>As css dentro da tag</h1>
+<p>Você deve ter lido isso tenso porque não sabe como mudar a porra do estilo.
+    Você mudar o estilo de forma pontual usando o parâmetro style="" e dentro das aspas você pode colocar comandos de css somente para essa tag.
+</p>
+<h2>A segunda forma de usar css</h2>
+<p>
+    Você também pode colocar os comandos das css dentro da tag style na head.
+</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+A internet foi criada para defender os dados dos estados unidos da Rússia na guerra fria.
+
+Foi criada primordialmente pela empresa DARPA que criou o ARPANET.
+
+Porém para atender as nescessidades da rede que já estava grande demais, foram aprimorando até virar a internet que conhecemos hoje.
+
+O http no link é um protocolo para a conversação entre computadores diferentes
+O www no link é uma forma de interligar os documentos da internet.
+
+
+
+Sabe 010001101? esse é o código binário, que os computadores entendem.
+Basicamente cada 0 é um sinal sem frequência e cada 1 é um sinal com frequência, por isso viaja no ar.
+bite = cada 0 ou 1
+byte = 8 zeros e uns
+MB = Mega "bytes"
+Mb = Mega "bites"    Quando falam "100 mega" de internet tão falando de 100 megabits
+IP = Código que indentifica cada computador da internet
+NDS = Dá um nome pratico ao ip conhecidos como URL ou link (exemplo: google.com)
+Cliente = O seu computador
+Servidor = Computador que te entrega os arquivos
+
+Domínio: link do seu site, custa de 30 a 50 reais por mês
+
+Hospedagem: Local onde fica os arquivos do site, aí é mais caro e é nescessario escolher com cuidado
+
+Estrutura de um URL:
+
+exemplo: https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+https: protocolo
+
+github.com: domínio
+
+gustavoguanabara: subdomínio
+
+html/css/tree/master/aulas-pdf: caminho
+

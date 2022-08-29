@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #8A90FF, #6D74FA, #3B41AD);
+}
+div{
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+.titulo{
+    color: #AD932A;
+}
+p{
+    color: #746631;
+}

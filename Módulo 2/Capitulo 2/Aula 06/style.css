@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Slab:wght@500&display=swap');
+*{
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #B38239, #FFCE85, #FFC36C);
+}
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    color: #1d5986;
+    text-align: center;
+}
+p{
+    color: #2777B3;
+    text-align: justify;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Audios e Vídeos</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Aumente o tamanho do navegador e veja o que acontece!</p>
+        <picture>
+            <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+            <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-p.png" alt="">
+        </picture>
+        <p>Eu fiz isso usando a tag <abbr title="&lt;picture>">picture</abbr> e dentro dela tags <abbr title=" digitando source:media:type e apertando enter">source</abbr> e dentro de source vai ter três <abbr title="parâmetro=&#34 &#34">parâmetros</abbr>: <br>
+            <abbr title="define qual imagem sera carregada se a sua tela for da largura desejada">srcset="nome do arquivo"</abbr> <br>
+            <abbr title="define o formato do seu arquivo">type="image/png"</abbr> <br>
+            <abbr title="largura minima ou máxima da tela para mostrar a imagem">media="(min-width: 750px)"</abbr>
+        </p>
+    <h1>Áudio</h1>
+        <audio controls preload="metadata">
+            <source src="audios/Enough - NEFFEX.mp3" type="audio/mp3">
+            <p>Seu navegador não suporta áudio, você pode fazer o <a href="audios/Enough - NEFFEX.mp3" download="Enough - NEFFEX.mp3" type="audio/mp3">download</a></p>
+        </audio>
+        <p>Tá ouvindo esse som?</p>
+        <p>Eu fiz isso a tag &lt;audio&gt; com os paramêtros <abbr title="para mostrar os controles do audio para dar play">controls</abbr>, <abbr title="para reiniciar o audio quando terminar">loop</abbr> e dentro de &lt;audio&gt; a tag &lt;source&gt; com os parâmetros src="nome do arquivo" e type="audio/mp3"</p>
+    <h1>Videos</h1>
+    <p>Dá pra colocar videos no seu próprio servidor usando a tag &lt;video&gt; com os mesmos parâmetros: <abbr title="para mostrar os controles do audio para dar play">controls</abbr>, <abbr title="para definir a largura do video">width="450px"</abbr> e <abbr title="para reiniciar o audio quando terminar">loop</abbr> </p>
+    <video width="450px" controls loop>
+        <source src="videos/videoplayback.mp4" type="video/mp4">
+    </video>
+    <h2>Videos do youtube diretamente</h2>
+    <p>Também dá pra colocar vídeos diretamente do youtube indo em um vídeo no youtube, clicando em compartilhar depois encorporar e depois copiar, ai é só colar o código aqui:</p>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/bpYQRPZyHwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <br>
+    <p>Parte do site que eu fiz porque estava entediado:</p>
+    <br>
+    <img src="https://gifs.eco.br/wp-content/uploads/2021/09/gifs-de-gato-dancando-2.gif" alt="">
+    <br>
+    <bdo dir="rtl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quas sint cumque perspiciatis nobis praesentium veritatis eius, asperiores saepe rem repudiandae dolores placeat sunt dolor deleniti voluptatum numquam iure cupiditate.</bdo>
+</body>
+</html>
