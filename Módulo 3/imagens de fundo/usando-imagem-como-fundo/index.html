@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Três Fundos</title>
+    <style>
+        div{
+            border: 2px solid rgba(0, 0, 0, 0.767);
+            width: 300px;
+            height: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        div#q1{
+            background-color: cornflowerblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to left, yellow, orange);
+        }
+        div#q3{
+            background-image: url("../imagens/pattern001.png");
+        }
+        body{
+            background-image: url(../imagens/wallpaper004.jpg);
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <p>Existem três principais formas de colocar um fundo em tudo, ou em uma divisão qualquer:</p>
+        <br>
+        <div id="q1">
+
+        </div>
+        <br>
+        <p>Usando cores sólidas: <br>
+            <code>background-color: cornflowerblue;</code>
+        </p>
+        <div id="q2">
+
+        </div>
+        <br>
+        <p>Usando gradientes ou degradês: <br>
+            <code>background-image: linear-gradient(to left, yellow, orange);</code>
+        </p>
+        <div id="q3">
+
+        </div>
+        <p>Ou usando imagens: <br>
+            <code>background-image: url("../imagens/pattern001.png");</code>
+        </p>
+    </main>
 </body>
 </html>
