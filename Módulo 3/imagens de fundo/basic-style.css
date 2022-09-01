@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono&family=Roboto+Slab:wght@700&display=swap');
 div{
     border: 2px solid rgba(0, 0, 0, 0.767);
     width: 300px;
@@ -34,4 +35,16 @@ div#x{
 div#y{
     background-repeat: repeat-y;
     background-image: url(../imagens/pattern001.png);
+}
+h1{
+    font-family: Roboto Slab, serif;
+}
+p, blockquote, ul, div, span{
+    font-family: Comfortaa, sans-serif;
+}
+code{
+    font-family: Roboto Mono, monospace;
+}
+li{
+    line-height: 1.5em;
 }
