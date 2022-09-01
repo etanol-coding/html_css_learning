@@ -5,28 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Três Fundos</title>
-    <style>
-        div{
-            border: 2px solid rgba(0, 0, 0, 0.767);
-            width: 300px;
-            height: 300px;
-            margin: 15px;
-            border-radius: 10px;
-            display: inline-block;
-        }
-        div#q1{
-            background-color: cornflowerblue;
-        }
-        div#q2{
-            background-image: linear-gradient(to left, yellow, orange);
-        }
-        div#q3{
-            background-image: url("../imagens/pattern001.png");
-        }
-        body{
-            background-image: url(../imagens/wallpaper004.jpg);
-        }
-    </style>
+    <link rel="stylesheet" href="../basic-style.css">
 </head>
 <body>
     <main>
@@ -52,6 +31,28 @@
         <p>Ou usando imagens: <br>
             <code>background-image: url("../imagens/pattern001.png");</code>
         </p>
+        <p>
+            Você pode definir como a sua imagem vai se repetir com o comando <code>
+                background-repeat: ;
+            </code> <br>
+            esse comando pode receber diversos valores:
+        </p>
+        <p>defaut, a imagem se repete quantas vezes nescsssário</p> <br><code>background-repeat: repeat;</code> <br>
+        <div id="repeat">
+
+        </div>
+        <p>Não se repete nenhuma vez</p> <br> <code>background-repeat: no-repeat;</code> <br>
+        <div id="no-repeat">
+
+        </div>
+        <p>se repete apenas horizontalmente</p> <br> <code>background-repeat: repeat-x;</code> <br>
+        <div id="x">
+
+        </div>
+        <p>se repete verticalmente</p> <br> <code>background-repeat: repeat-y;</code> <br>
+        <div id="y">
+
+        </div>
     </main>
 </body>
 </html>

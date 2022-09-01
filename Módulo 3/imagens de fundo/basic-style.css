@@ -1,1 +1,37 @@
 @charset "UTF-8";
+div{
+    border: 2px solid rgba(0, 0, 0, 0.767);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+div#q1{
+    background-color: cornflowerblue;
+}
+div#q2{
+    background-image: linear-gradient(to left, yellow, orange);
+}
+div#q3{
+    background-image: url("../imagens/pattern001.png");
+}
+body{
+    background-image: url(../imagens/wallpaper004.jpg);
+}
+div#repeat{
+    background-repeat: repeat;
+    background-image: url("../imagens/pattern001.png");
+}
+div#no-repeat{
+    background-repeat: no-repeat;
+    background-image: url(../imagens/pattern001.png);
+}
+div#x{
+    background-repeat: repeat-x;
+    background-image: url("../imagens/pattern001.png");
+}
+div#y{
+    background-repeat: repeat-y;
+    background-image: url(../imagens/pattern001.png);
+}
