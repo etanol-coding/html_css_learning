@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono&family=Roboto+Slab:wght@700&display=swap');
 div{
     border: 2px solid rgba(0, 0, 0, 0.767);
-    width: 300px;
-    height: 300px;
-    margin: 15px;
+    width: 30%;
+    height: 30%;
     border-radius: 10px;
-    display: inline-block;
+    display: block;
 }
 div#q1{
     background-color: cornflowerblue;
@@ -19,6 +18,9 @@ div#q3{
 }
 body{
     background-image: url(../imagens/wallpaper004.jpg);
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 div#repeat{
     background-repeat: repeat;
