@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300&display=swap');
+body{
+    margin: 0px;
+    border: 0px;
+}
+
+
+
+header{
+background-color: black;
+color: white;
+height: 30vh;
+font-family: Bebas Neue;
+text-align: center;
+}
+header h1{
+    font-size: 6em;
+    margin: 0;
+}
+header p{
+    font-size: 2.5em;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+
+
+main p{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+
+
+footer{
+
+}
