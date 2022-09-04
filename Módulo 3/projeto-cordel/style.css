@@ -38,6 +38,9 @@ main p{
     font-size: 2.5em;
     line-height: 2em;
 }
+main p#flor{
+    background: rgb(29, 29, 29) url(imagens/background001.jpg);
+}
 
 
 
