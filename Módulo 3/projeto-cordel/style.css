@@ -45,10 +45,13 @@ main p{
     line-height: 2em;
 }
 main div#flor{
-    background: url(imagens/background001.jpg) center right/ cover fixed;
-    /* background: rgb(29, 29, 29) url(../imagens/wallpaper002.jpg) center center/ cover no-repeat fixed; */
+    background: rgb(29, 29, 29) url(imagens/background001.jpg) center right/ cover no-repeat fixed;
 }
-p#ler{
+main div#carta{
+    background: rgb(29, 29, 29) url(imagens/background002.jpg) center right/ cover no-repeat fixed;
+    box-shadow:3px 3px 3px black;
+}
+p.ler{
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
     max-width: 40vw;
@@ -64,4 +67,5 @@ background-color: black;
 color: white;
 text-align: center;
 font-size: 2em;
+font-family: Arial, Helvetica, sans-serif;
 }
