@@ -3,6 +3,7 @@
 body{
     margin: 0px;
     border: 0px;
+    font-size: 1.1vw;
 }
 
 
@@ -15,11 +16,16 @@ font-family: Bebas Neue;
 text-align: center;
 }
 header h1{
-    font-size: 6em;
+    font-size: 14vh;
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 header p{
-    font-size: 2.5em;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 header a{
     text-decoration: none;
@@ -38,15 +44,24 @@ main p{
     font-size: 2.5em;
     line-height: 2em;
 }
-main p#flor{
-    background: url(imagens/background001.jpg) center center fixed;
+main div#flor{
+    background: url(imagens/background001.jpg) center right/ cover fixed;
     /* background: rgb(29, 29, 29) url(../imagens/wallpaper002.jpg) center center/ cover no-repeat fixed; */
 }
-
+p#ler{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    max-width: 40vw;
+    padding: 0px;
+    text-align: left;
+    margin-left: 30px;
+    text-align: center;
+}
 
 
 footer{
 background-color: black;
 color: white;
 text-align: center;
+font-size: 2em;
 }
