@@ -39,11 +39,14 @@ main p{
     line-height: 2em;
 }
 main p#flor{
-    background: rgb(29, 29, 29) url(imagens/background001.jpg);
+    background: url(imagens/background001.jpg) center center fixed;
+    /* background: rgb(29, 29, 29) url(../imagens/wallpaper002.jpg) center center/ cover no-repeat fixed; */
 }
 
 
 
 footer{
-
+background-color: black;
+color: white;
+text-align: center;
 }
