@@ -49,7 +49,7 @@ main div#flor{
 }
 main div#carta{
     background: rgb(29, 29, 29) url(imagens/background002.jpg) center right/ cover no-repeat fixed;
-    box-shadow:3px 3px 3px black;
+    box-shadow:5px 5px 8px rgba(0, 0, 0, 0.432) inset;
 }
 p.ler{
     background-color: rgba(0, 0, 0, 0.438);
