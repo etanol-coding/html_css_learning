@@ -16,7 +16,7 @@ font-family: Bebas Neue;
 text-align: center;
 }
 header h1{
-    font-size: 14vh;
+    font-size: 10vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -46,6 +46,7 @@ main p{
 }
 main div#flor{
     background: rgb(29, 29, 29) url(imagens/background001.jpg) center right/ cover no-repeat fixed;
+    box-shadow:5px 5px 8px rgba(0, 0, 0, 0.432) inset;
 }
 main div#carta{
     background: rgb(29, 29, 29) url(imagens/background002.jpg) center right/ cover no-repeat fixed;
@@ -55,10 +56,11 @@ p.ler{
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
     max-width: 40vw;
-    padding: 0px;
+    padding: 5px;
     text-align: left;
     margin-left: 30px;
     text-align: center;
+    border-radius: 15px;
 }
 
 
