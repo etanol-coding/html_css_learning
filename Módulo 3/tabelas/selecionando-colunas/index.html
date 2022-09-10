@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>selecionando-tabelas</title>
+    <style>
+        .vermei{
+            background-color: red;
+        }
+        .azul{
+            background-color: blue;
+        }
+        .verde{
+            
+        }
+        </style>
 </head>
 <body>
     <main>
         <p>Dentro de <code>&lt;table&gt;</code> utilize a tag <code>&lt;colgroup&gt;</code> e dentro tags <code>&lt;col&gt;</code> para selecionar e colocar um id ou class em colunas da sua tabelas, você també pode usar <code>span=""</code> para definir quantas colunas você irá selecionar.</p>
         <table>
+            <colgroup>
+                <col>
+                <col class="azul">
+                <col class="verde">
+                <col>
+                <col class="vermei">
+            </colgroup>
             <caption>Filmes Favoritos</caption>
             <tr>
                 <th scope="col">Grupo</th>
