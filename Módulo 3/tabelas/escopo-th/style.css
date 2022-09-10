@@ -13,7 +13,7 @@ td, th{
     padding: 10px;
 }
 table{
-    width: 650px;
+    width: 80vw;
 }
 thead, tfoot{
     background-color: rgb(99, 99, 99);

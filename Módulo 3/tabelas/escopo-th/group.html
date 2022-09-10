@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>tabela003</title>
+    <title>group</title>
     <style>
         td{
             width: 10em;
@@ -18,10 +18,14 @@
             height: 80vh;
             border-collapse: collapse;
         }
+        main{
+            width: 100vw;
+        }
     </style>
 </head>
 <body>
     <main>
+        <p>Sempre que um <code>&lt;th&gt;</code> nomear mais de uma linha ou mais de uma coluna, utilize <code>scop="colgroup"</code> para quando nomeia mais de uma coluna ou <code>scop="rowgroup"</code> para quando nomeia mais de uma linha.</p>
         <table>
             <caption>Filmes Favoritos</caption>
             <tr>
@@ -68,6 +72,9 @@
                 <td>Toy Story</td>
             </tr>
         </table>
-    </main>
+        <p>
+            Nesse caso, <em>Grupo</em> e <em>Nomes</em>, tem <code>scope="col"</code> já que nomeiam apenas uma coluna. <br> <em>Filmes</em> tem <code>scope="colgroup"</code> já que nomeia mais de uma coluna(três) <br> os th <em>Mulheres</em> e <em>Homens</em> tem <code>scope="rowgroup"</code> pois nomeiam mais de uma linha.
+        </p>
+        </main>
 </body>
 </html>
