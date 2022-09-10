@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>escopo-th</title>
+</head>
+<body>
+    <main>
+        <h1>Escopo de Títulos com HTML5</h1>
+        <p>É importante definir o escopo dos <code><abbr title="titulos de dados da tabela">&lt;th&gt;</abbr></code>, definindo o exatamente ele titula, faça isso usando o parâmetro <code>scope=""</code>, que pode receber <abbr title="linha"><code>row</code></abbr> ou <code><abbr title="coluna">col</abbr></code>, utilize <code>row</code> quando o título nomeia uma linha, e <code>col</code> quando nomeia uma coluna, exemplo:</p>
+        <table>
+            <tr>
+                <th scope="col">Coluna 1</th>
+                <th scope="col">Coluna 2</th>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <th scope="row">Linha 6</th>
+                <td>linha 6 item</td>
+            </tr>
+        </table>
+        <p>Nesse caso, os titulos <q>Coluna 1</q> e a <q>Coluna 2</q> devem ter <code>scope="col"</code>, já o título <q>Linha 6</q> deve ter <code>scope="row"</code></p>
+    </main>
+</body>
+</html>
