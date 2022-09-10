@@ -18,3 +18,10 @@ td, th{
 td:hover, th:hover{
     background-color: lightgray;
 }
+
+caption{
+    font-size: 1.5em;
+    background-color: gray;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}

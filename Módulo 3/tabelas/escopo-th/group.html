@@ -14,8 +14,8 @@
             width: 20em;
         }
         table{
-            width: 800px;
-            height: 200px;
+            width: 80vw;
+            height: 80vh;
             border-collapse: collapse;
         }
     </style>
@@ -23,13 +23,14 @@
 <body>
     <main>
         <table>
+            <caption>Filmes Favoritos</caption>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td class="nome">Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -48,7 +49,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td class="nome">Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
