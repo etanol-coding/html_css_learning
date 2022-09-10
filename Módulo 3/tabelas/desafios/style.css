@@ -1,0 +1,20 @@
+@charset "UTF-8";
+table{
+    /* border-collapse: collapse; */
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    height: 400px;
+    text-transform: uppercase;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+td:hover, th:hover{
+    background-color: lightgray;
+}
