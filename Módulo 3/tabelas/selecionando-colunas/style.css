@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+:root{
+    --fontecodigo: Share Tech Mono;
+}
+main{
+    width: 90vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vh;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    width: 650px;
+    position: relative;
+}
+thead, tfoot{
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+caption{
+    font-weight: 600;
+    padding: 12px;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+tbody tr:nth-child(2n){
+    background-color: lightgray;
+}
+
+thead  {
+    position: sticky;
+    top: -1px;
+}
+
+code{
+    font-family: var(--fontecodigo);
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.inutil{
+    color: rgba(0, 0, 0, 0.363);
+}

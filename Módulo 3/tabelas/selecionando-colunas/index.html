@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>selecionando-tabelas</title>
+</head>
+<body>
+    <main>
+        <p>Dentro de <code>&lt;table&gt;</code> utilize a tag <code>&lt;colgroup&gt;</code> e dentro tags <code>&lt;col&gt;</code> para selecionar e colocar um id ou class em colunas da sua tabelas, você també pode usar <code>span=""</code> para definir quantas colunas você irá selecionar.</p>
+        <table>
+            <caption>Filmes Favoritos</caption>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="nome">Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td class="nome">Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td class="nome">Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td class="nome">Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td class="nome">Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td class="nome">Fabiano Mota</td>
+                <td>Stars Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
