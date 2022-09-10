@@ -4,14 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alinhando-tabelas</title>
+    <style>
+        body{
+            background-color: rgb(43, 43, 43);
+        }
+        main{
+            font-size: 2.34vw;
+            background-color: white;
+            margin: auto;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            width: 60vw;
+            margin: auto;
+            padding: 10px;
+        }
+        p{
+            font-size: 1em;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 6vh;
+        }
+        td{
+            border: 1px solid rgba(0, 0, 0, 0.479);
+            text-align: center;
+            vertical-align: bottom;
+        }
+    </style>
+    <title>alinhamento-de-tabelas</title>
 </head>
 <body>
     <main>
-        <h1>A linhando tabelas com HTML5</h1>
-        <p>
-            
-        </p>
+        <h1>Alinhamento de Tabelas com HTML5</h1>
+        <table>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+        </table>
+        <p>Utilize <code>vertical-align: ;</code> para fazer um alinhamento vertical nos <code>&lt;td&gt;</code>, ele pode receber: <code><abbr title="em cima">top</abbr> <abbr title="meio">middle</abbr> <abbr title="em baixo">bottom</abbr></code></p>
     </main>
 </body>
 </html>
