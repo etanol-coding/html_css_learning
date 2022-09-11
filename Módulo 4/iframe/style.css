@@ -1,0 +1,13 @@
+@charset "UTF-8";
+main{
+    width: 80vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+code{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 15px;
+}
