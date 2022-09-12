@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>inconvenientes do iframe</title>
+    <style>
+        p#esc{
+            display: none;
+            background-color: rgb(29, 29, 29);
+            color: white;
+            border-radius: 15px;
+        }
+        span{
+            text-decoration: underline;
+        }
+        ul{
+            padding-bottom: 100px;
+        }
+        p#tambor:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Inconvenientes da tag <code>&lt;iframe&gt;</code> com HTML5</h1>
+        <p>
+            Utilizar <code>&lt;iframe&gt;</code> não é errado, apesar de que algum vão falar isso, não é. Mais também ele tem seus inconvenientes.
+        </p>
+        <ul>
+            <li>
+                Segurança: <p>Se você colocar no seu <code>&lt;iframe&gt;</code> um site que foi invadido e que está por exemplo fazendo ataques de <span id="XSS" onmouseenter="exp()" onmouseleave="tira()">XSS</span> então muito provavelmente esse ataque será aplicado também no seu site, por isso coloque no seu <code>&lt;iframe&gt;</code> apenas sites confiáveis ou internos.
+                    <p id="esc">permitem que os invasores injetem scripts do lado do cliente em páginas da Web visualizadas por outros usuários.</p></p>
+            </li>
+            <li>
+                Acessibilidade: <p>Os leitores de tela utilizado por cegos para utilizar o computador, as vezes não consseguem ler o que está escrito no iframe, por isso não coloque conteúdos importantes ou cruciais no seu iframe</p>
+            </li>
+            <li>
+                Robô do Google: <p>
+                    O robô do google também conhecido como google bot as vezes também não conssegue ler o que está escrito no <code>&lt;iframe&gt;</code>, por isso mesma coisa, não coloque conteúdos principais nos iframes, para que seu site seja o primeiro a aparecer para os usuários, já que esse robô é quem faz isso.
+                </p>
+            </li>
+            <li>
+                Responsividade: <p>
+                    Caso o site que você colocou no seu iframe não seja responsivel, vai ter uma rolagem lateral no <code>&lt;iframe&gt;</code>, o que é bem incomodo, por isso sempre procuro colocar no seu <code>&lt;iframe&gt;</code> sites responsivos. 
+                </p>
+            </li>
+        </ul>
+    </main>
+    <script src="code.js"></script>
+</body>
+</html>
