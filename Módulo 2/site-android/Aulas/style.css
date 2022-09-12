@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Mono:wght@600&family=Staatliches&display=swap');
+:root{
+    --cinza: rgba(83, 83, 83, 0.37);
+}
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    background-color: var(--cinza);
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    min-width: none;
+    max-width: 800px;
+    margin-top: 60px;        
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+}
+main h1, main h2, main h3, main h4, main h5, main h6{
+    font-family: 'Staatliches', serif;
+}
+p, blockquote, q, div, span{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background-color: rgba(95, 158, 160, 0.329);
+}
+code{
+    font-family: 'Roboto Mono', monospace;
+}
