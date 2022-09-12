@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>ornando iframes mais seguros</title>
+</head>
+<body>
+    <main>
+        <h1>Como fazer <code>&lt;iframe&gt;</code> um pouco mais seguro</h1>
+        <p>Utilize os parâmetros: <ul>
+            <li><code>sandbox=""</code><p>Esse não vai permitir scripts formularios, popus e esse tipo de coisa pra tentar previnir os ataques.</p></li>
+            <li><code>referrerpolicy="no-referrer"</code><p>Esse não permite que os sites peguem dados do usuário para "colocar anúncios melhores", que pode ser usado maliciosamente também.</p></li>
+        </ul></p>
+        <iframe src="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal" frameborder="1" width="1200" height="600" sandbox="" referrerpolicy="no-referrer"><a href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal">wikipedia</a></iframe>
+    </main>
+</body>
+</html>
