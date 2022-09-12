@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <title>navegação-iframe</title>
+    <style>
+        iframe{
+            display: block;
+            width: 95vw;
+            height: 500px;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+    </style>
 </head>
 <body>
     <main>
         <h1>Navegando em <code>&lt;iframe&gt;</code></h1>
+        <p>Então, lembra das <a href="">âncoras?</a>, então, e lembra do parâmetro <code>target=""</code>? e lembra das classes? Em um iframe, defina um name="" que é algo semelhante ao class="", então crie uma <a href="">âncora</a> com o <code>target=""</code> do name do seu iframe, ai da pra permitir o usuario "escolher" o site que vai aparecer no iframe:</p>
+        <ul>
+            <li><a href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal" target="frame">wikipedia</a></li>
+            <li><a href="https://g1.globo.com" target="frame">g1</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="frame">amazon</a></li>
+        </ul>
+        <iframe name="frame" frameborder="0">
+            <p>Seu dispositivo não é compativel com isso :(</p>
+        </iframe>
+        <pre>
+
+
+
+
+
+        </pre>
     </main>
 </body>
 </html>
