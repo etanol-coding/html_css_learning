@@ -5,12 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     <title>configurando-iframes</title>
 </head>
 <body>
     <main>
         <h1>Configurando &lt;iframe&gt;</h1>
         <p>A primeira dica é que qual quer conteúdo que você colocar dentro da tag, vai ser exibido caso o dispositivo não seja compátivel com iframes.</p>
+        <p>Outra dica é que usando o parâmetro <code>scrolling=""</code> você pode definir como seu iframe vai ter o scroll, pode receber três valores: <code>auto</code>, auto vai rolar se o conteúdo for grande o suficiente e se não for tão grande, não vai rolar. <br> <code>yes</code> o yes vai fazer com que de qual quer forma o conteúdo role. <br> <code>no</code> o no de qual quer forma não scrola.</p>
+        <p>Além disso, o <code>frameborder=""</code> pode receber apenas 2 valores, <code>0</code> ou <code>1</code>,se for 0 não tem borda, e se for 1 tem borda.</p>
+        <iframe src="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal" frameborder="0" scrolling="no"></iframe>
+        <a href="#area">clique aqui</a>
+        <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+        <p id="area">
+            Viu isso? então, para fazer isso basta colocar uma âncora normal, porém no caminho você coloca #id e no lugar de id, dessa forma quando clicar link a página vai descer para o elemento que tiver o id, utilize nas CSS também <code>html{scroll-behavior: smooth;}</code> <br> para uma rolagem suave.
+        </p>
     </main>
 </body>
 </html>
