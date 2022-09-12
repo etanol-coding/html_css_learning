@@ -2,14 +2,19 @@
 body{
     background: rgb(29, 29, 29) url(imagens/fundo-madeira.jpg);
     background-size: cover;
+    border: 0px;
 }
 iframe{
-    width:322px;
-    height: 700px;
-    margin-left: 19px;
-    margin-top: 90px;
+    width: 27.4vw;
+    height: 40vh;
+    margin-left: 0.3vw;
+    margin-top: 4vh;
 }
-div{
-    height: 100vh;
-     background: black /* url(imagens/frame-iphone.) */no-repeat;
+div#borda{
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    height: 100%;
+    display: block;
+    margin: auto;
 }
