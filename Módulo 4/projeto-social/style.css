@@ -29,10 +29,10 @@ margin: auto;
 }
 iframe{
 position: absolute;
-width: 280px;
+width: 285px;
 height: 495px;
 top: 70px;
-left: 15px;
+left: 20px;
 }
 
 
@@ -42,7 +42,7 @@ left: 15px;
 
 nav{
 position: absolute;
-right: 0;
+right: 0px;
 margin: 20px;
 }
 a > img, a{
